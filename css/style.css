@@ -1,0 +1,144 @@
+body {
+    margin-bottom: 40px;
+}
+
+
+#heading {
+    padding: 10px;
+}
+
+#heading.bg-success {
+    width: 100%;
+    margin: 0px;
+}
+
+#subheading {
+    background-color: cadetblue;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.order-heading {
+    background: #6b6870;
+    color: #161616;
+    padding: 10px;
+}
+
+.incoming-order-heading {
+    background: #7c927c;
+    color: #131212;
+    padding: 10px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+
+hr {
+    border: #000 solid 1px;
+}
+
+
+.list-unstyled > li {
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+ul#orders > li {
+    padding: 10px;
+    margin: 15px;
+}
+
+
+.incoming-order {
+    padding: 10px;
+}
+
+ul li .edit {
+    display: none;  
+}
+
+ul li.edit .edit {
+    display: initial; 
+}
+
+ul li.edit .noedit { 
+    display: none;
+}
+
+
+footer {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.editOrder {
+    
+    border-radius: 5px; 
+    background-color: #557c5e; 
+    color: #0f0f0f; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.editOrder:hover {
+    background-color: #4b4e4c; 
+}
+
+
+.btn {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+
+.remove {
+    background-color:cadetblue; 
+    color: #0c0b0b; 
+    border: none; 
+}
+
+.remove:hover {
+    background-color: #4b4e4c; 
+}
+
+
+.saveEdit {
+    background-color: #557c5e; 
+    color: #0f0f0f; 
+    border: none; 
+}
+
+.saveEdit:hover {
+    background-color: #4b4e4c; 
+}
+
+.cancelEdit {
+    background-color: #75484b; 
+    color: #111111; 
+    border: none; 
+}
+
+.cancelEdit:hover {
+    background-color: #4b4e4c; 
+}
+
+/* Custom styling for Add Order button */
+#add-order {
+    padding: 15px 30px; /* Adjust padding as needed */
+    font-size: 18px; /* Adjust font size as needed */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #557c5e; /* Green background color */
+    color: #030303; /* White text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#add-order:hover {
+    background-color:#4b4e4c; /* Darker green color on hover */
+}
+
